@@ -42,11 +42,15 @@ p::before {
 }
 
 h1 {
-
+  font-size: 14pt;
 }
 
 h2 {
+  font-size: 18pt;
+}
 
+h3 {
+  font-size: 12pt;
 }
 
 strong {
