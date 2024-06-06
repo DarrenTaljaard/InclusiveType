@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Sitka Text";
+  src: url(../fonts/Fluent_SitkaSmall.ttf);
+}
+
+:root {
+  --section-bg-color: gray;
+}
+
+body {
+  counter-reset: section;
+  font-family: "Sitka Text", sans-serif;
+  font-size: 10.1pt;
+}
+
+article {
+  max-width: 900px;
+  line-height: 3rem;
+  padding-left: 7rem;
+}
+
+p {
+ padding-right: 1rem;
+ padding-bottom: 1rem;
+ position: relative;
+ margin-bottom: 1rem;
+}
+
+p::before {
+  background-color: var(--section-bg-color);
+  counter-increment: section;
+  content: counter(section);
+  border-radius: 0px 15px 15px 0px;
+  position: absolute;
+  left: -7rem;
+  top: 0px;
+  bottom: 0px;
+  width: 5rem;
+  text-align: right;
+  padding-right: 1rem;
+  font-weight: bold;
+  color: rgb(102, 102, 102);
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+strong {
+
+}
+
+.section-a {
+  --section-bg-color: #51d4fc;
+}
+
+.section-b {
+  --section-bg-color: #51fc59;
+}
+
+.section-c {
+  --section-bg-color: #fc9051;
+}
