@@ -16,12 +16,11 @@ body {
 article {
   max-width: 1366px;
   line-height: 3rem;
-  padding-left: 7rem;
-  padding-right: 7rem;
+  padding-left: 7.5rem;
+  padding-right: 7.5rem;
 }
 
 p {
- padding-right: 1rem;
  padding-bottom: 1rem;
  position: relative;
  margin-bottom: 1rem;
