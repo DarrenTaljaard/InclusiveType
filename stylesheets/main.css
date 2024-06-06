@@ -31,7 +31,7 @@ p::before {
   content: counter(section);
   border-radius: 0px 15px 15px 0px;
   position: absolute;
-  left: -7rem;
+  left: -10rem;
   top: 0px;
   bottom: 0px;
   width: 5rem;
