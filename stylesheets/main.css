@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Sitka Text";
+  font-family: "Fluent Sitka Small";
   src: url(../fonts/Fluent_SitkaSmall.ttf);
 }
 
@@ -9,7 +9,7 @@
 
 body {
   counter-reset: section;
-  font-family: "Sitka Text", sans-serif;
+  font-family: "Fluent Sitka Small", sans-serif;
   font-size: 10.1pt;
 }
 
