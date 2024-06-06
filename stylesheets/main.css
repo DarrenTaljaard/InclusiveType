@@ -15,7 +15,7 @@ body {
 
 article {
   max-width: 1366px;
-  line-height: 3rem;
+  line-height: 3rem; // leading
   padding-left: 7.5rem;
   padding-right: 7.5rem;
 }
